@@ -4,13 +4,18 @@
     margin: 0 0 0 8px;
 }
 
+.custom-margin {
+    margin: 75px 0 65px 0;
+}
+
+.custom-container {
+        min-width: -webkit-fill-available;
+}
+
 
 .image-container {
     background-color: transparent;
     border-radius: .45rem;
-    height: 208px;
-    display: flex;
-    padding: 1.52rem;
 }
 
 .image-container:hover {
@@ -19,9 +24,11 @@
 
 .image-container img {
     max-width: 100%;
+    width: 90% !important;
     max-height: 208px;
     width: auto;
     height: auto;
+    align-self: center;
 }
 
 @media screen and (max-width: 576px){
