@@ -12,11 +12,6 @@
     min-width: -webkit-fill-available;
 }
 
-.rounded2{
-    border-radius: .45rem;
-}
-
-
 .image-container {
     background-color: transparent;
     border-radius: .45rem;
